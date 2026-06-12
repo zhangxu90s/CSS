@@ -171,7 +171,6 @@ class MultiScaleSpectralGraphReasoner(nn.Module):
 # 4. 解耦拓扑分割骨干网络 (Causal Spectral Segmenter)
 # =====================================================================
 class Segmenter(nn.Module):
-    """全新无缝升级的因果解耦谱域拓扑分割网络 (完美保持原接口兼容)."""
 
     def __init__(
         self,
